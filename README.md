@@ -1,2 +1,2 @@
 # dio-bootcamp
-Repositório para os projetos feitos no bootcamp da dio
+Repositório criado para os projetos feitos no bootcamp da dio
