@@ -1,0 +1,15 @@
+Alguns comandos básicos para utilizar o git e integrar com o github
+
+na pasta
+
+git init -> vai transformar a pasta em um repositório local
+
+configurações do git
+
+git config --global user.email "<email do github>" -> configura globalmente o email
+git config --global user.name "<nome no github>" -> configuta globalmente o nome no commit
+git add <arquivo> -> transforma o arquivo em staged
+git add * -> transforma todos os arquivos no repositório para staged
+git status -> verifica o status do repositório, mostrando se e quais arquivos podem ser commitados
+git commit -m -> cria um commit com uma mensagem
+git push origin main -> empurra o arquivo com nome main para a nuvem do github
