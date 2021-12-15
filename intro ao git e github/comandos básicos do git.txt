@@ -8,6 +8,8 @@ configurações do git
 
 git config --global user.email "<email do github>" -> configura globalmente o email
 git config --global user.name "<nome no github>" -> configuta globalmente o nome no commit
+
+comandos básicos do git
 git add <arquivo> -> transforma o arquivo em staged
 git add * -> transforma todos os arquivos no repositório para staged
 git status -> verifica o status do repositório, mostrando se e quais arquivos podem ser commitados
