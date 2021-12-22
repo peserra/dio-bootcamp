@@ -1,0 +1,6 @@
+C:\Workspace\dio-bootcamp\Intro ao Visual Studio\Primeiro\PrimeiroTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Workspace\dio-bootcamp\Intro ao Visual Studio\Primeiro\PrimeiroTests\obj\Debug\net6.0\PrimeiroTests.csproj.AssemblyReference.cache
+C:\Workspace\dio-bootcamp\Intro ao Visual Studio\Primeiro\PrimeiroTests\obj\Debug\net6.0\PrimeiroTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\dio-bootcamp\Intro ao Visual Studio\Primeiro\PrimeiroTests\obj\Debug\net6.0\PrimeiroTests.AssemblyInfoInputs.cache
+C:\Workspace\dio-bootcamp\Intro ao Visual Studio\Primeiro\PrimeiroTests\obj\Debug\net6.0\PrimeiroTests.AssemblyInfo.cs
+C:\Workspace\dio-bootcamp\Intro ao Visual Studio\Primeiro\PrimeiroTests\obj\Debug\net6.0\PrimeiroTests.csproj.CoreCompileInputs.cache

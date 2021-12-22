@@ -1,0 +1,62 @@
+instalação e utilização do Visual Studio 
+
+para desenvolver em C# e .NET
+
+Instalação da IDE
+instalar o visual studio do site da microsoft
+a IDE tem várias cargas de trabalho disponiveis para instalar, mas vai ser 
+utilizada a Desenvolvimento para desktop com .NET
+
+Gerando Código e Debugando
+	Objetivos: Gerar, inspecionar e debuggar
+
+GERAR
+Para criar novo projeto, clicar em "criar novo projeto"
+para acessar um projeto, clicar em "abrir pasta local" ou "abrir um projeto ou solução"
+para clonar um repositório, clicar em "clonar repositório"
+
+
+Escolher template
+baseado na carga de trabalho
+no caso vai selecionar "aplicativo de console" para usar c#
+
+o que é uma solução?
+	uma lugar que pode agregar projetos criados
+
+O console que o visual studio roda é o proprio prompt de comando
+OBS:------------------------------------------------------------------------------------
+A partir do .NET 6, os projetos que usam "console" geram codigo diferente:
+	-nele só é necessário escrever o main
+	- caso precise utilizar instruções de tutoriais antigos:
+		> usar o novo estilo,a dicionando novas instruções de nivel superior
+			adicionando instruções no arquivo Program.cs
+		> converter para o modelo antigo
+-----------------------------------------------------------------------------------------
+
+INSPECIONAR
+Como é feita a depuração: quando é colocada uma "breakpoint" no código e ele é executado
+Breakpoint > 
+	um ponto colocado na frente da linha que se deseja depurar
+	ele "para" o código logo antes dessa linha marcada ser executada, util para verificar como cada linha se comporta no codigo
+	para continuar, pode apertar F10 para executar linha por linha a partir do breakpoint ou F5 para ir ao fim do programa
+
+	Shift+F9 pode procurar e olhar cada variavel, o tipo e o valor no momento da parada
+	util para procurar expressoes em codigos muito grandes
+
+Integração com Git e Github
+Podemos clonar um repositório na hora de criar um projeto
+ou clicar em Git para criar um repositório Git no projeto
+
+Testes
+
+Como criar testes:
+	- clicar no metodo ou class que vai ser testado com botao direito e "criar teste de unidade"
+		> Vai ser criado um novo projeto dentro da solução com o arquivod de teste, deve ser configurado com padrão AAA:
+			-Arrange (organizar) de um metodo de teste inicia os objetos e define o valor dos dados que serão passados
+			 parra o metodo sendo testado
+			- Act (agir) invoca o metodo sendo testado com os parâmetros organizados
+			- Assert(declarar) verifica se a ação do método em teste se comporta conforme o esperado
+		
+	>>Assert retorna uma exceção caso o teste falhe<<
+	- é necessário editar os testes criados para que eles testem o que se deseja
+	- após criados o testes, é necessário de fato testar, para isso no painel superior, na parte "teste" clicamos em "executar todos os testes
