@@ -1,0 +1,66 @@
+Intro ao C# e .NET
+
+Criando primeiro projeto em C#
+
+1 O que é .NET e C#
+	.NET é um framework criado pela Ms q permite a comunicação entrre varias linguagens que tem uma infraestrutura comum (CLI) (Visual Basic, C++, F# e C#)
+	
+	C# é uma LOO fortemente tipada. A sintaxe foi baseada no C++ e possui influencias de outras linguagens
+	
+	
+
+2 Criando Primeiro projeto
+
+	
+	Seleciona baseado na carga de trabalho instalado no VS
+	
+	O nome do projeto e nome da solução por padrão sao os mesmos
+		A solução é um conteiner pra organizar todos os projetos selecionados
+	
+	Pode-se ver os dieretorios e arquivos do projeto no gerenciador de soluções, em exibir
+		nele podemos adicionar mais proetos, classes, diretorios, e mexer no projeto de forma geral
+
+	
+
+3 Como o projeto é estruturado
+	
+	Namespaces
+		São usados para orrganizar classes
+		Para usar uma classe de outro namespace, colocamos "using" no começo do codigo
+		nao posso ter duas classes iguais dentro de um namespace
+		dentro do projeto podemos usar classes de outros namespaces no projeto, permitindo assim instanciar elas, basta usar o using <nome do namespace> ou usar <nome do namespace>.<nome da classe>
+
+
+
+	Classes e Objetos
+		uma classe pode ter campos, propriedades, metodos e eventos -> como formas
+		
+		quando essa classe é instanciada, chamamos essa instancia de objeto
+		nesse objeto podem ser criados os valroes de acordo com os campos da classe 
+		
+		Instanciando uma classe:
+		<nome da classe> nomeDaInstancia = new <nome da classe>();
+		
+		com isso, a instancia no programa tera o nome "nomeDaInstancia" e seus valores unicos, porem uma nova classe poderá ter outros valores
+		
+
+	Interface
+
+		classe base que serve de molde para outras classes
+		como se fosse um lembrete do tipo "tem que criar a classe com esses parâmetros sempre"
+
+
+	Enum
+	
+		Declara um conjunto de constantes nomeadas que começam com indice zero
+		cada variavel consecutiva possui um indice incrementado em 1
+		é uma maneira de chamar um valor constante a partir de um index
+
+
+	debugging
+		Depuração pode ser feita colocando um breakpoint ou apertando F9 e executando ele
+		O codigo vai parar onde for colocado o breakpoint
+		ele só vai rodar o que esta dento do "static void main"
+		F10 vai rodar linha por linha para analizarr o codigo, F5 vai executar o codigo todo
+
+ 
